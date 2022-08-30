@@ -2,6 +2,11 @@
   color: rgb(56, 6, 104);
 }
 
+#example p {
+  color: black;
+  font-size: large;
+}
+
 p {
   color: rgb(99, 135, 17);
 }
