@@ -1,24 +1,23 @@
 * ul {
-    color: rgb(56, 6, 104);
+  color: rgb(56, 6, 104);
 }
 
 p {
-    color:rgb(99, 135, 17);
+  color: rgb(99, 135, 17);
 }
 
 #back {
-    color:blue;
+  color: blue;
 }
 
 .col {
-    color: red;
+  color: red;
 }
 
 .back.img {
-    color:rgb(1, 152, 104)
+  color: rgb(1, 152, 104);
 }
 
 .mar p {
-    color: deeppink;
+  color: deeppink;
 }
-;
