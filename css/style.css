@@ -1,0 +1,38 @@
+body {
+  background: #e5e5e5;
+}
+
+.cart {
+  background: #e0e0e0;
+  max-width: 300px;
+  padding-left: 35px;
+  padding-right: 35px;
+  display: inline-block;
+  margin: 35px;
+  vertical-align: top;
+}
+
+img {
+  max-width: 200px;
+  max-height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.textincart {
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Roboto-Bold", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+}
