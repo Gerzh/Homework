@@ -1,14 +1,15 @@
 body {
   background: #e5e5e5;
+  font-family: "Roboto", sans-serif;
 }
 
 .cart {
-  background: #e0e0e0;
+  background: #aea4a4;
   max-width: 300px;
-  padding-left: 35px;
-  padding-right: 35px;
+  padding-left: 15px;
+  padding-right: 15px;
   display: inline-block;
-  margin: 35px;
+  margin: 15px;
   vertical-align: top;
 }
 
@@ -22,8 +23,6 @@ img {
 
 .textincart {
   text-align: center;
-  font-family: "Roboto-Regular", sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
@@ -31,8 +30,6 @@ img {
 
 h2 {
   text-align: center;
-  font-family: "Roboto-Bold", sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
 }
