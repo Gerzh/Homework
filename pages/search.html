@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forma</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../font/font.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <nav>
+            <a href="../index.html">Реєстрація</a>
+            <a href="./autho.html">Авторизація</a>
+            <a href="./search.html">Пошук</a>
+        </nav>
+    </header>
+
+
+    <div class="container">
+
+        <h1>Пошук</h1>
+
+        <form name="searchcar" action="https://fom.in.ua/echo" method="post">
+
+
+            <p>Тип кузова</p>
+            <label>
+                <input type="checkbox" name="bodyofcar" value="Sedan">
+                Cедан
+            </label>
+            <label>
+                <input type="checkbox" name="bodyofcar" value="Hatchback">
+                Хєтчбек
+            </label>
+            <label>
+                <input type="checkbox" name="bodyofcar" value="Сoupe">
+                Купе
+            </label> <br>
+            <label>
+                <input type="checkbox" name="bodyofcar" value="Wagon-universal">
+                Універсал
+            </label>
+            <label>
+                <input type="checkbox" name="bodyofcar" value="Cabrio">
+                Кабріолет
+            </label>
+            <label>
+                <input type="checkbox" name="bodyofcar" value="Crossover-SUV">
+                Позашляховик
+            </label>
+
+
+
+            <p>Марка авто</p>
+            <label>
+                <select class="select" name="MarkaofVehicle">
+                    <option value="none" disabled selected>Оберіть марку авто</option>
+                    <option value="Alfa Romeo">Alfa Romeo</option>
+                    <option value="Audi">Audi</option>
+                    <option value="BMW">BMW</option>
+                    <option value="Opel">Opel</option>
+                    <option value="Porsche">Porsche</option>
+                    <option value="Volkswagen">Volkswagen</option>
+                    <option value="Mercedes">Mercedes</option>
+
+                </select>
+            </label>
+
+            <p>Країна Виробник</p>
+            <label>
+                <select class="select" name="countryofCar">
+                    <option value="none" disabled selected>Оберіть країну</option>
+                    <option value="Україна">Україна</option>
+                    <option value="Німеччина">Німеччина</option>
+                    <option value="Японія">Японія</option>
+                    <option value="США">США</option>
+                </select>
+            </label>
+
+            <p>Ціна</p>
+            <label>
+                <input type="number" name="priceMin" placeholder="Ціна Від">
+            </label>
+            <label>
+                <input type="number" name="priceMax" placeholder="Ціна ДО">
+            </label>
+
+            <p>Рік випуску</p>
+            <label>
+                <input type="number" name="yearMin" placeholder="Рік від">
+            </label>
+            <label>
+                <input type="number" name="yearMax" placeholder="Рік ДО">
+            </label>
+
+
+
+
+
+            <p>Тип палива</p>
+
+            <input type="radio" name="fuel" id="fuel1" value="Benz">
+            <label for="fuel1">Бензин</label>
+
+            <input type="radio" name="fuel" id="fuel2" value="Gaz">
+            <label for="fuel2">Газ</label>
+
+            <input type="radio" name="fuel" id="fuel3" value="Diesel">
+            <label for="fuel3">Дизель</label>
+
+            <input type="radio" name="fuel" id="fuel4" value="Electro">
+            <label for="fuel4">Електро</label>
+
+            <p>Тип КПП</p>
+            <label>
+                <select class="select" name="Gearbox">
+                    <option value="none" disabled selected>Cтан авто</option>
+                    <option value="Automat">Автомат</option>
+                    <option value="Mech">Механіка</option>
+                    <option value="variator">Варіатор</option>
+
+                </select>
+            </label>
+
+            <p>Стан авто</p>
+            <label>
+                <select class="select" name="damage">
+                    <option value="none" disabled selected>Cтан авто</option>
+                    <option value="AfterDTP">Після ДТП</option>
+                    <option value="New">Нова</option>
+                    <option value="Painted">Фарбована</option>
+
+                </select>
+            </label>
+
+
+
+            <p>Колір авто</p>
+            <label>
+                <input type="color" name="color">
+            </label>
+
+            <p>Комфорт та додаткові опції</p>
+            <label>
+                <input type="checkbox" name="Option" value="AirCondition">
+                Кондиціонер
+            </label>
+            <label>
+                <input type="checkbox" name="Option" value="Leather">
+                Шкіряний салон
+            </label>
+            <label>
+                <input type="checkbox" name="Option" value="Panorama">
+                Панорамна криша
+            </label> <br>
+            <label>
+                <input type="checkbox" name="Option" value="AutoPilot">
+                Автопілот
+            </label>
+            <label>
+                <input type="checkbox" name="Option" value="ExpensiveMusic">
+                Якісна аудіосистема
+            </label>
+            <label>
+                <input type="checkbox" name="Option" value="ArmoredWindows">
+                Броньовані вікна
+            </label>
+
+
+    </div>
+
+
+    <button onclick="" id="button" href="#"> Пошук</button>
+
+    </form>
+
+    </div>
+    <footer class="footer">
+        2022 Designed by Кітька Крошка 🐱
+    </footer>
+
+
+</body>
+
+</html>

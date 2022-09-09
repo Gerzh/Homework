@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forma</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../font/font.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <nav>
+            <a href="../index.html">Реєстрація</a>
+            <a href="./autho.html">Авторизація</a>
+            <a href="./search.html">Пошук</a>
+        </nav>
+    </header>
+
+
+
+    <div class="container">
+
+        <h1>Авторизація</h1>
+
+        <form name="regpage" action="https://fom.in.ua/echo" method="post">
+
+            <div class="block">
+                <label>Електронна пошта</label><br>
+                <input type="email" name="email" placeholder="Введіть пошту" required class="field">
+            </div>
+
+            <div class="block">
+                <label>Пароль</label><br>
+                <input type="password" name="password" maxlength="8" placeholder="Введіть пароль" required
+                    class="field">
+            </div>
+            <div class="block">
+                <input type="checkbox" name="save" value="save">
+                Запам'ятати пароль
+            </div>
+
+            <div class="block">
+                <input type="checkbox" name="forgetpass" value="forgetpass">
+                Я забув пароль
+            </div>
+
+
+            <button onclick="" id="button" href="#">Вхід</button>
+
+        </form>
+
+    </div>
+    <footer class="footer">
+        2022 Designed by Кітька Крошка 🐱
+    </footer>
+</body>
+
+</html>
