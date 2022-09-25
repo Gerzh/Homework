@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #000;
+}
+
+.header {
+  padding: 40px 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.top-block {
+  background: #eeeff1;
+  padding-top: 260px;
+  padding-bottom: 140px;
+}
+
+.container {
+  max-width: 1110px;
+  margin: auto;
+}
+
+.nav a {
+  margin-right: 38px;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  line-height: 26px;
+  font-weight: 500;
+}
+
+.nav a.active {
+  color: #34547a;
+}
+
+.header-title {
+  margin-bottom: 34px;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 79px;
+}
+
+p {
+  color: #727272;
+  line-height: 26px;
+  margin-bottom: 57px;
+}
+
+.button {
+  display: inline-block;
+  padding: 5px 30px 10px;
+  background-color: #34547a;
+  color: white;
+  letter-spacing: 0.1em;
+  font-size: 16px;
+  padding: 20px 30px;
+  text-decoration: none;
+}
+
+.about-me {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  background: #f9f9f9;
+  padding: 110px 0 100px;
+}
+
+.head2 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  margin-bottom: 40px;
+}
+
+.cards {
+  background-color: #34547a;
+  padding-top: 98px;
+  padding-bottom: 98px;
+  text-align: center;
+}
+
+.icon-text {
+  margin-right: 40px;
+  display: inline-block;
+}
+
+.discript {
+  float: right;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.project {
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 0;
+}
+
+.number {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  color: white;
+}
+
+iframe {
+  margin-bottom: 100px;
+  max-width: 1110px;
+  border: 0px;
+}
+
+.footer {
+  background-color: #34547a;
+}
+
+.bottom {
+  display: block;
+  background-color: #34547a;
+  color: white;
+  max-width: 1110px;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.head3 {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+
+.footer-text {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 21px;
+  color: white;
+  margin-bottom: 0;
+}
+
+.top-block .btn-top {
+  margin-top: 65px;
+}
